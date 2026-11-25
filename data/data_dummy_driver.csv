@@ -1,0 +1,61 @@
+id,tidur,kerja,istirahat,jam,kategori_lapangan
+D01,6.5,8.9,0.4,15,Prima
+D02,4.4,11.7,2.4,11,Rawan
+D03,7.1,9.9,0.2,21,Prima
+D04,7.4,8.8,2.6,19,Mulai Lelah
+D05,3.1,8.8,1.7,13,Rawan
+D06,4.0,5.3,0.6,4,Rawan
+D07,6.2,1.4,0.4,19,Prima
+D08,5.5,7.1,2.9,11,Mulai Lelah
+D09,6.0,4.0,0.7,22,Mulai Lelah
+D10,4.7,6.7,4.4,11,Rawan
+D11,7.3,12.9,3.6,9,Mulai Lelah
+D12,7.2,4.3,1.5,21,Mulai Lelah
+D13,6.1,1.8,2.2,9,Rawan
+D14,7.7,4.9,0.1,9,Prima
+D15,6.7,5.1,4.2,17,Mulai Lelah
+D16,4.7,10.3,2.7,22,Rawan
+D17,6.6,8.8,4.1,9,Rawan
+D18,4.6,12.0,0.5,11,Rawan
+D19,7.3,10.3,2.7,21,Mulai Lelah
+D20,5.9,6.7,2.3,23,Rawan
+D21,5.7,12.4,5.7,15,Berhenti Dulu
+D22,5.0,3.3,2.3,9,Mulai Lelah
+D23,7.8,1.3,1.7,2,Mulai Lelah
+D24,5.8,2.3,1.0,11,Prima
+D25,5.4,11.1,1.9,9,Rawan
+D26,5.5,7.5,2.6,19,Mulai Lelah
+D27,6.8,3.3,1.8,9,Prima
+D28,6.5,8.0,0.1,15,Mulai Lelah
+D29,6.6,3.1,3.3,19,Mulai Lelah
+D30,6.6,10.7,5.1,17,Rawan
+D31,9.0,7.2,0.7,9,Prima
+D32,5.4,6.3,2.6,21,Mulai Lelah
+D33,5.2,5.2,0.5,19,Mulai Lelah
+D34,4.8,9.8,3.7,19,Rawan
+D35,6.9,6.1,1.3,9,Prima
+D36,7.7,2.2,2.5,9,Prima
+D37,5.8,2.7,2.8,22,Mulai Lelah
+D38,4.7,14.5,5.0,13,Berhenti Dulu
+D39,4.8,13.7,0.7,11,Berhenti Dulu
+D40,7.0,10.8,5.2,15,Rawan
+D41,7.1,4.7,1.0,19,Prima
+D42,6.8,14.6,0.2,23,Rawan
+D43,5.0,11.9,3.3,11,Berhenti Dulu
+D44,6.3,11.0,2.1,22,Mulai Lelah
+D45,6.2,7.3,4.1,2,Rawan
+D46,6.3,4.8,3.5,17,Prima
+D47,7.3,2.3,1.2,17,Prima
+D48,6.3,13.6,6.0,9,Berhenti Dulu
+D49,7.0,7.4,1.4,9,Prima
+D50,6.1,3.8,2.1,13,Prima
+D51,6.4,5.3,1.1,23,Mulai Lelah
+D52,6.9,9.1,5.0,17,Mulai Lelah
+D53,3.8,3.5,0.7,22,Mulai Lelah
+D54,5.5,13.0,0.3,21,Rawan
+D55,5.3,11.6,2.5,15,Rawan
+D56,5.0,11.1,5.7,21,Berhenti Dulu
+D57,5.6,7.0,4.3,2,Berhenti Dulu
+D58,8.2,9.8,4.1,9,Mulai Lelah
+D59,4.7,9.2,4.7,21,Rawan
+D60,7.5,10.1,4.9,21,Rawan

@@ -1,0 +1,6 @@
+﻿.venv/
+__pycache__/
+*.pyc
+riwayat.db
+grafik_laporan/
+hasil_uji_skenario.csv
