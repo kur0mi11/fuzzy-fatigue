@@ -314,7 +314,7 @@ with tab1:
             <div style="display:flex;justify-content:space-between;align-items:center;">
                 <div>
                     <div class="card-label">Parameter Kondisi Pengemudi</div>
-                    <div class="card-desc">Geser 4 indikator di bawah sesuai kondisi aktual di lapangan</div>
+                    <div class="card-desc">Masukkan 4 indikator di bawah sesuai kondisi aktual di lapangan</div>
                 </div>
                 <span class="pill pill-green">Live Input</span>
             </div>
@@ -322,10 +322,10 @@ with tab1:
         """, unsafe_allow_html=True)
 
         with st.container(border=True):
-            tidur = st.slider("😴 Lama tidur semalam (jam)", 0.0, 10.0, 7.0, 0.5)
-            kerja = st.slider("🛵 Durasi kerja hari ini (jam)", 0.0, 16.0, 4.0, 0.5)
-            istirahat = st.slider("☕ Jeda sejak istirahat terakhir (jam)", 0.0, 6.0, 1.0, 0.25)
-            jam_pilih = st.time_input("🕒 Jam operasional saat ini", value=datetime.now().time().replace(second=0, microsecond=0))
+            tidur = st.number_input("🛏️ Jam tidur semalam (0–10 jam)", min_value=0.0, max_value=10.0, value=7.0, step=0.01, format="%.2f")
+            kerja = st.number_input("🛵 Sudah kerja berapa jam hari ini? (0–16 jam)", min_value=0.0, max_value=16.0, value=4.0, step=0.01, format="%.2f")
+            istirahat = st.number_input("☕ Jeda sejak istirahat terakhir (0–6 jam)", min_value=0.0, max_value=6.0, value=1.0, step=0.01, format="%.2f")
+            jam_pilih = st.time_input("🕒 Jam operasional saat ini (00:00–23:59)", value=datetime.now().time().replace(second=0, microsecond=0), step=60)
 
         # Konversi objek time (HH:MM) ke desimal jam (contoh: 14:30 -> 14.5)
         waktu = round(jam_pilih.hour + (jam_pilih.minute / 60.0), 2)
